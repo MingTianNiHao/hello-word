@@ -1,0 +1,29 @@
+{
+  "name": "second-package",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "luosuwei09 <3562365580@qq.com>",
+  "homepage": "https://github.com/luosuwei09/hello-word/tree/master/packges/second-package#readme",
+  "license": "ISC",
+  "main": "lib/second-package.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luosuwei09/hello-word.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/luosuwei09/hello-word/issues"
+  }
+}

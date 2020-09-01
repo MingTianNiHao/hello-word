@@ -1,0 +1,26 @@
+{
+  "name": "hello-word",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luosuwei09/hello-word.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luosuwei09/hello-word/issues"
+  },
+  "homepage": "https://github.com/luosuwei09/hello-word#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "private": true,
+  "workspaces": [
+    "packges/*"
+  ]
+}
