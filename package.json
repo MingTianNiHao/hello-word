@@ -19,7 +19,6 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
-  "private": true,
   "workspaces": [
     "packges/*"
   ]
